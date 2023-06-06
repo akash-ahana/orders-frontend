@@ -17,7 +17,7 @@ function App() {
 
         <Route element={<WithNav />}>
           <Route path="/orders" element={<Parentroute />}> 
-           <Route path="/orders/newOrder" element={<NewOrder/>}/>
+           <Route path="/orders/NewOrder" element={<NewOrder/>}/>
            <Route path="/orders/orderList/orderlistCreated" element={<OrderListCreated/>}/>
            <Route path="/orders/combinedSchedules/JobWork/Create" element={<Create/>}/>
 

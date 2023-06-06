@@ -5,7 +5,7 @@ export default function CombinedScheduleDetailsTab() {
   return (
     <div>
       <Form className="form mt-2">
-        <div className="ip-box form-bg">
+        <div className="ip-box">
           <div className="row">
             <div className="col-md-4 col-sm-12">
               <div className="row">
@@ -14,7 +14,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -28,7 +28,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -47,7 +47,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -63,7 +63,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -77,7 +77,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -96,7 +96,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -112,7 +112,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -126,7 +126,7 @@ export default function CombinedScheduleDetailsTab() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    class=""
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -135,7 +135,7 @@ export default function CombinedScheduleDetailsTab() {
             </div>
             <div className="col-md-4 col-sm-12">
               <div className="row">
-                <div className="col-md-4  mb-2 col-sm-12">
+                <div className="col-md-4 mt-2 col-sm-12">
                   <label
                     className="form-label"
                     style={{ whiteSpace: "nowrap" }}
@@ -143,7 +143,7 @@ export default function CombinedScheduleDetailsTab() {
                     Delivery Date
                   </label>
                 </div>
-                <div className="col-md-8  mb-2 col-sm-12">
+                <div className="col-md-8 col-sm-12">
                   <input
                     className="in-fields mt-2"
                     name="UnistallDate"

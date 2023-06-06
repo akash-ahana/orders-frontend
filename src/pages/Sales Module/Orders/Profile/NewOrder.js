@@ -22,13 +22,14 @@ export default function NewOrder() {
           height: "3px",
         }}
       />
+      <h5 className="mt-4">
+        <b>New Order</b>
+      </h5>
       <button className="button-style  group-button">Save Order</button>
       <br></br>
-      <h9 className="mt-4">
-        <b>New Order</b>
-      </h9>
+      
       <Form className="form mt-2">
-        <div className="ip-box form-bg">
+        <div className="ip-box ">
           <div className="row">
             <div className="col-md-6 col-sm-12">
               <div className="row">
@@ -37,7 +38,7 @@ export default function NewOrder() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -51,7 +52,7 @@ export default function NewOrder() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -68,7 +69,7 @@ export default function NewOrder() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -82,7 +83,7 @@ export default function NewOrder() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -91,36 +92,7 @@ export default function NewOrder() {
             </div>
           </div>
 
-          <div className="row">
-            <div className="col-md-6 col-sm-12">
-              <div className="row">
-                <div className="col-md-4 mb-2 col-sm-12">
-                  <label className="form-label">Order Date</label>
-                </div>
-                <div className="col-md-8  mb-2 col-sm-12">
-                  <input
-                    class="form-control"
-                    type="text"
-                    style={{ borderRadius: "0" }}
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="col-md-6 col-sm-12">
-              <div className="row">
-                <div className="col-md-4  mb-2 col-sm-12">
-                  <label className="form-label">Quotation No</label>
-                </div>
-                <div className="col-md-8  mb-2 col-sm-12">
-                  <input
-                    class="form-control"
-                    type="text"
-                    style={{ borderRadius: "0" }}
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
+         
 
           <div className="row">
             <div className="col-md-6 col-sm-12">
@@ -141,7 +113,7 @@ export default function NewOrder() {
             </div>
             <div className="col-md-6 col-sm-12">
               <div className="row">
-                <div className="col-md-4  mb-2 col-sm-12">
+                <div className="col-md-4 mt-1  mb-2 col-sm-12">
                   <label className="form-label">Delivery Date</label>
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
@@ -233,7 +205,7 @@ export default function NewOrder() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -266,7 +238,7 @@ export default function NewOrder() {
                 </div>
                 <div className="col-md-8  mb-2 col-sm-12">
                   <input
-                    class="form-control"
+                    
                     type="text"
                     style={{ borderRadius: "0" }}
                   />
@@ -411,7 +383,7 @@ export default function NewOrder() {
                 <div className="col-md-4 mb-2 col-sm-12">
                   <label className="form-label">Magod Delivery</label>
                 </div>
-                <div className="col-md-8  mb-2 col-sm-12">
+                <div className="col-md-8  mt-2 col-sm-12">
                   <input
                     class="form-check-input"
                     type="checkbox"

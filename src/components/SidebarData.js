@@ -37,7 +37,7 @@ export const customerSidebar = [
     subNav: [
       {
         title: "New Order", 
-        path:"/orders/newOrder",
+        path:"/orders/NewOrder",
         icon: <BsServer />,
       },
       {
